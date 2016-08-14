@@ -14,10 +14,12 @@ running appearance counts by episode.
 """
 
 import re
+import requests
+from sys import version
 
-VERBOSE = False
+VERBOSE = True
 
-def simplyTheBest():
+def onlyTheBest():
     return 'Eban Schletter'
 
 def cleanNameString(str):
@@ -70,141 +72,188 @@ def get_Guest_Object(name,link):
         guestObj = Guest.guests_dict.get(name)
     return guestObj
 
-episodeList = []
-guestList   = []
+def get(pages=[], category = False, curonly=True):
+    #http://stackoverflow.com/questions/14512372/exporting-wikipedia-with-python
+    link = "http://spontaneanation.wikia.com/wiki/Special:Export?action=submit"
+    params = {}
+    if pages:
+        params["pages"] = "\n".join(pages)
+    if category:
+        params["addcat"] = 1
+        params["catname"] = category
 
-#Open file for results summary
-homefile = open('spont_wiki_home.txt','w')
-statsfile = open('spont_wiki_stats.csv','w')
+    if curonly:
+        params["curonly"] = 1
 
-#Compile regex
-textWithParens     = re.compile(r'(?:[^,(]|\([^)]*\))+')
+    headers = {"User-Agent":"Wiki Downloader -- Python %s, contact: @danwesely on twitter" % version}
+    r = requests.post(link, headers=headers, data=params)
+    return r.text
 
-episodeTitleRegex = re.compile(r'''
-    ^.*Ep.\s*               # Bullet
-    (\d+)                   # Episode number
-    \s*-\s*                 # Separator
-    [[]+([^\]|]+)           # Episode title
-    ''', re.VERBOSE)
+def main():
 
-#Parse wiki file
-episodesfile = open('SPONTANEANATION+Wikia-episodes.xml','r+')
-print('Parsing episode list...')
-allpages = re.split(r'<page>',episodesfile.read())
-episodePageFound = False
-episodeListFound = False
-for page in allpages:
-    alllines = re.split(r'\n',page)
-    for line in alllines:
-        thisEpisode = None
-        if '<title>Episodes</title>' in line:
-            episodePageFound = True
-            print(line)
-        elif episodePageFound and 'Episode List' in line and '==' in line:
-                episodeListFound = True
-                print(line)
-        elif episodeListFound:
-            if '*' in line:
-                matches = re.search(episodeTitleRegex,line)
-                if matches:
-                    thisEpisode = Episode(matches.group(1),cleanTitleString(matches.group(2)))
-                    if thisEpisode:
-                        episodeList.append(thisEpisode)
-                elif line:
-                    break
-episodesfile.close()
-
-missingEpisodeList = []
-
-episodesfile = open('SPONTANEANATION+Wikia-episodes.xml','r+')
-print('Parsing guest list...')
-allpages = re.split(r'<page>',episodesfile.read())
-for page in allpages:
-    title          = ''
-    guest          = ''
-    myname         = ''
-    mylink         = ''
-    thisGuest      = None
-    thisEpisode    = None
-    guestListFound = False
+    episodeList = []
     
-    alllines = re.split(r'\n',page)
-    for line in alllines:
-        thisGuest = None
-        if '<title>' in line and 'Episode List' not in line:
-            #Get the episode title
-            title = parseEpisodeTitle(line)
-            thisEpisode = get_Episode_Object(0,cleanTitleString(title))
-            if thisEpisode:
-                print('This episode: #{} {}'.format(thisEpisode.number, thisEpisode.title))
-            else:
-                print(line)
-        elif line.startswith("      <comment"):
-            continue
-        elif thisEpisode and '|question]] was' in line:
-            #Save the episode's question
-            thisQuestion = re.sub(r'.*question]] was ','',line).strip("&quot;'.")
-            thisEpisode.question = thisQuestion
-        elif 'Guests/Improvisors' in line:
-            #Time to start parsing guests
-            guestListFound = True
-        elif guestListFound and '*' in line:
-            #This is a listed guest
-            myname = cleanNameString(line)
-            if re.match('[\[]',myname):
-                mylink = myname
-                myname = cleanNameString(re.search(r'[[]+([^\|\]]*)',myname).group(1).strip(' \t\n\r'))
-            else:
-                mylink = '[[{}]]'.format(myname)
-            print('This guest: {}, {}'.format(myname, mylink))
-            thisGuest = get_Guest_Object(myname, mylink)
-            if thisEpisode and thisGuest:
-                thisEpisode.guests.add(thisGuest)
-                thisGuest.episodes.add(thisEpisode)
-            if thisEpisode.number == 0:
-                missingEpisodeList.append(thisEpisode.title)
-        elif guestListFound and line:
-            #No longer the guest list, skip the rest
-            guestListFound = False
-            continue
-
-homefile.write('\n==== Table of Guest Appearances ====\n{| border="1" class="wikitable sortable"\n!  Guest\n!  Earliest episode\n!  Latest Episode\n!  Total Episode Count')
-for guest in sorted(Guest.guests_dict.values(), key=lambda x: len(x.episodes), reverse=True):
-    sortedList = sorted(guest.episodes, key=lambda x: x.number)
-    if len(guest.episodes)>1:
-        homefile.write('\n|-\n| {} || [[{}|{}]] || [[{}|{}]] || {:.0f}'.format(guest.link,sortedList[0].title,sortedList[0].number,sortedList[-1].title,sortedList[-1].number,len(sortedList)))
-    elif sortedList:
-        homefile.write('\n|-\n| {} || [[{}|{}]] || [[{}|{}]] || {:.0f}'.format(guest.link,sortedList[0].title,sortedList[0].number,sortedList[0].title,sortedList[0].number,1))
-    else:
-        print(guest.name)
-    print('Guest name: {}'.format(guest.link))
-    for episode in sortedList:
-        print('  -Episode #{}: {}'.format(episode.number,episode.title))
-homefile.write('\n|}')
-
-if missingEpisodeList:
-    print('Missing the following episodes:')
-    for episode in missingEpisodeList:
-        print(episode)
-
-print('*{} episodes identified.'.format(len(Episode.episodes_dict.values())))
-print('*{} guests identified.'.format(len(Guest.guests_dict.values())))
-
-print('Printing wiki stats...')
-statsfile.write('\n\nList of Episode Volume Per Guest as A Function of Episode\nEpisode')
-for guest in Guest.guests_dict.values():
-    statsfile.write(',{}'.format(guest.name))
-for episode in sorted(Episode.episodes_dict.values(), key=lambda x: x.number):
-    statsfile.write('\n{:.0f}'.format(episode.number))
-    for guest in Guest.guests_dict.values():
-        guestEpisodesSoFar = sum(guestisode.number <= episode.number for guestisode in guest.episodes)
-        statsfile.write(',{:.0f}'.format(guestEpisodesSoFar))
+    #set output file for new wiki download
+    xmlFilename = 'SPONTANEANATION+Wikia-episodes.xml'
+    
+    #get new episode list
+    exportPages = get(category="Spontaneanation Episodes")
+    savePages = False
+    pageList = []
+    for line in exportPages.split("\n"):
+        print(line)
+        if savePages and '<' not in line:
+            pageList.append(line.strip(' \n\t\r'))
+        elif '<textarea name="pages" cols="40" rows="10">' in line:
+            savePages = True
+        elif savePages:
+            #the last page has </textarea> next to it, strip and save
+            pageList.append(re.findall(r'^[^<]+',line)[0])
+            break
         
+    #get new episode xml
+    episodePages = get(pages=pageList)
+    with open(xmlFilename,'w') as newDownload:
+        print(episodePages)
+        newDownload.write(episodePages.encode('ascii', 'ignore'))
+    
+    #Open file for results summary
+    homefile = open('spont_wiki_home.txt','w')
+    statsfile = open('spont_wiki_stats.csv','w')
+    
+    #Compile regex
+    episodeTitleRegex = re.compile(r'''
+        ^.*Ep.\s*               # Bullet
+        (\d+)                   # Episode number
+        \s*-\s*                 # Separator
+        [[]+([^\]|]+)           # Episode title
+        ''', re.VERBOSE)
+    
+    #Parse wiki file
+    episodesfile = open(xmlFilename,'r+')
+    print('Parsing episode list...')
+    allpages = re.split(r'<page>',episodesfile.read())
+    episodePageFound = False
+    episodeListFound = False
+    for page in allpages:
+        alllines = re.split(r'\n',page)
+        for line in alllines:
+            thisEpisode = None
+            if '<title>Episodes</title>' in line:
+                episodePageFound = True
+                if VERBOSE:
+                    print(line)
+            elif episodePageFound and 'Episode List' in line and '==' in line:
+                    episodeListFound = True
+                    if VERBOSE:
+                        print(line)
+            elif episodeListFound:
+                if '*' in line:
+                    matches = re.search(episodeTitleRegex,line)
+                    if matches:
+                        thisEpisode = Episode(matches.group(1),cleanTitleString(matches.group(2)))
+                        if thisEpisode:
+                            episodeList.append(thisEpisode)
+                    elif line:
+                        break
+    episodesfile.close()
+    
+    missingEpisodeList = []
+    
+    episodesfile = open('SPONTANEANATION+Wikia-episodes.xml','r+')
+    print('Parsing guest list...')
+    allpages = re.split(r'<page>',episodesfile.read())
+    for page in allpages:
+        title          = ''
+        guest          = ''
+        myname         = ''
+        mylink         = ''
+        thisGuest      = None
+        thisEpisode    = None
+        guestListFound = False
+        
+        alllines = re.split(r'\n',page)
+        for line in alllines:
+            thisGuest = None
+            if '<title>' in line and 'Episode List' not in line:
+                #Get the episode title
+                title = parseEpisodeTitle(line)
+                thisEpisode = get_Episode_Object(0,cleanTitleString(title))
+                if VERBOSE:
+                    if thisEpisode:
+                        print('This episode: #{} {}'.format(thisEpisode.number, thisEpisode.title))
+                    else:
+                        print(line)
+            elif line.startswith("      <comment"):
+                continue
+            elif thisEpisode and '|question]] was' in line:
+                #Save the episode's question
+                thisQuestion = re.sub(r'.*question]] was ','',line).strip("&quot;'.")
+                thisEpisode.question = thisQuestion
+            elif 'Guests/Improvisors' in line:
+                #Time to start parsing guests
+                guestListFound = True
+            elif guestListFound and '*' in line:
+                #This is a listed guest
+                myname = cleanNameString(line)
+                if re.match('[\[]',myname):
+                    mylink = myname
+                    myname = cleanNameString(re.search(r'[[]+([^\|\]]*)',myname).group(1).strip(' \t\n\r'))
+                else:
+                    mylink = '[[{}]]'.format(myname)
+                print('This guest: {}, {}'.format(myname, mylink))
+                thisGuest = get_Guest_Object(myname, mylink)
+                if thisEpisode and thisGuest:
+                    thisEpisode.guests.add(thisGuest)
+                    thisGuest.episodes.add(thisEpisode)
+                if thisEpisode.number == 0:
+                    missingEpisodeList.append(thisEpisode.title)
+            elif guestListFound and line:
+                #No longer the guest list, skip the rest
+                guestListFound = False
+                continue
+    
+    homefile.write('\n==== Table of Guest Appearances ====\n{| border="1" class="wikitable sortable"\n!  Guest\n!  Earliest episode\n!  Latest Episode\n!  Total Episode Count')
+    for guest in sorted(Guest.guests_dict.values(), key=lambda x: len(x.episodes), reverse=True):
+        sortedList = sorted(guest.episodes, key=lambda x: x.number)
+        if len(guest.episodes)>1:
+            homefile.write('\n|-\n| {} || [[{}|{}]] || [[{}|{}]] || {:.0f}'.format(guest.link,sortedList[0].title,sortedList[0].number,sortedList[-1].title,sortedList[-1].number,len(sortedList)))
+        elif sortedList:
+            homefile.write('\n|-\n| {} || [[{}|{}]] || [[{}|{}]] || {:.0f}'.format(guest.link,sortedList[0].title,sortedList[0].number,sortedList[0].title,sortedList[0].number,1))
+        elif VERBOSE:
+            print(guest.name)
+        if VERBOSE:
+            print('Guest name: {}'.format(guest.link))
+            for episode in sortedList:
+                print('  -Episode #{}: {}'.format(episode.number,episode.title))
+    homefile.write('\n|}')
+    
+    if missingEpisodeList:
+        print('Missing the following episodes:')
+        for episode in missingEpisodeList:
+            print(episode)
+    
+    print('*{} episodes identified.'.format(len(Episode.episodes_dict.values())))
+    print('*{} guests identified.'.format(len(Guest.guests_dict.values())))
+    
+    print('Printing wiki stats...')
+    statsfile.write('\n\nList of Episode Volume Per Guest as A Function of Episode\nEpisode')
+    for guest in Guest.guests_dict.values():
+        statsfile.write(',{}'.format(guest.name))
+    for episode in sorted(Episode.episodes_dict.values(), key=lambda x: x.number):
+        statsfile.write('\n{:.0f}'.format(episode.number))
+        for guest in Guest.guests_dict.values():
+            guestEpisodesSoFar = sum(guestisode.number <= episode.number for guestisode in guest.episodes)
+            statsfile.write(',{:.0f}'.format(guestEpisodesSoFar))
+            
+    
+    episodesfile.close()
+    homefile.close()
+    statsfile.close()
+    
+    print('Special thanks: {}'.format(onlyTheBest()))
+    
+    print('Complete.')
 
-episodesfile.close()
-homefile.close()
-statsfile.close()
-
-print('Special thanks: {}'.format(simplyTheBest()))
-
-print('Complete.')
+if __name__ == '__main__':
+    main()
