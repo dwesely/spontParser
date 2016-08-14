@@ -115,8 +115,8 @@ def main():
     episodePages = get(pages=pageList)
     with open(xmlFilename,'w') as newDownload:
         print(episodePages)
-        newDownload.write(episodePages.encode('ascii', 'ignore'))
-    
+        newDownload.write(episodePages.encode('utf-8'))
+        
     #Open file for results summary
     homefile = open('spont_wiki_home.txt','w')
     statsfile = open('spont_wiki_stats.csv','w')
