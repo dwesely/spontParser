@@ -25,6 +25,8 @@
       <namespace key="15" case="first-letter">Category talk</namespace>
       <namespace key="110" case="first-letter">Forum</namespace>
       <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">Layer</namespace>
+      <namespace key="421" case="first-letter">Layer talk</namespace>
       <namespace key="500" case="first-letter">User blog</namespace>
       <namespace key="501" case="first-letter">User blog comment</namespace>
       <namespace key="502" case="first-letter">Blog</namespace>
@@ -43,16 +45,15 @@
     <title>Episodes</title>
     <ns>0</ns>
     <id>2150</id>
-      <sha1>5qmx9y5bjmp4ox502wqby0gp84j65g8</sha1>
+      <sha1>ioe790a6uzp1bxzq4efv7ershwh0698</sha1>
     <revision>
-      <id>5155</id>
-      <timestamp>2016-07-18T08:21:00Z</timestamp>
+      <id>5959</id>
+      <timestamp>2017-07-24T08:29:21Z</timestamp>
       <contributor>
         <username>Mariusperkins</username>
         <id>24589657</id>
       </contributor>
-      <comment>/* Episode List */</comment>
-      <text xml:space="preserve" bytes="3223">Below is a list of Spontaneanation episodes.
+      <text xml:space="preserve" bytes="5838">Below is a list of Spontaneanation episodes.
 
 ==  Episode List==
 * Ep. 1 - [[A Denny's Parking Lot]]
@@ -124,6 +125,60 @@
 * Ep. 67 - [[A Comic Book Shop]]
 * Ep. 68 - [[Paris]]
 * Ep. 69 -[[Minnesota State Fair| Minnesota State Fair]]
+* Ep. 70 - [[Gabrielle’s Quinceañera]]
+* Ep. 71 - [[Summer Camp (Live from Fox Cabaret in Vancouver, BC)]]
+* Ep. 72 - [[Airship Underwater (Live at Largo)]]
+* Ep. 73 - [[The King of Prussia Mall on Opening Weekend]]
+* Ep. 74 - [[Cold Storage Facility at a Chicken Farm]]
+* Ep. 75 - [[Aquarium]]
+* Ep. 76 -[[A Summer Theatre Camp in Michigan| A Summer Theatre Camp in Michigan]]
+* Ep. 77 -[[Concession Stand| Concession Stand]]
+* Ep. 78 - [[Donut Factory (Live at Largo)]]
+* Ep. 79 - [[Madrid (Live from Outside Lands 2016)]]
+* Ep. 80 - [[Warehouse]]
+* Ep. 81 - [[The Other Side of The Tracks (Live from The Detroit Improv Festival)]]
+* Ep. 82 - [[Madison Square Garden (Live from The Detroit Improv Festival)]]
+* Ep. 83 - [[Under A Big Rain Storm]]
+* Ep. 84 - [[State Fair (Live at Largo)]]
+* Ep. 85 - [[The Last Sizzler]]
+* Ep. 86 - [[A Whale’s Belly]]
+* Ep. 87 - [[Train Station (Live at Largo)]]
+* Ep. 88 - [[East NYC Village]]
+* Ep. 89 - [[Salem, Oregon Comic Shop]]
+* Ep. 90 - [[The Childhood Home of Fred Rogers]]
+* Ep. 91 -[[A Fast Food Restaurant Kitchen In An Alternate Universe| A Fast Food Restaurant Kitchen In An Alternate Universe]]
+* Ep. 92 - [[Boise, Idaho (Live from Now Hear This Festival)]]
+* Ep. 93 - [[Home Depot]]
+* Ep. 94 - [[Art Gallery (Live at Largo)]]
+* Ep. 95 - [[Backstage At A Rock Club (Live from The Bell House)]]
+* Ep. 96 - [[The Bell House (Live from The Bell House)]]
+* Ep. 97 - [[A Family-Owned Bagel Shop]]
+* Ep. 98 - [[A Post-Apocalyptic Wasteland]]
+* Ep. 99 - [[Ice Cream Parlor]]
+* Ep. 99.5 - [[The Pilot Episode: A Non-Tropical Resort]]
+* Ep. 100 - [[A Shoe Store (Live at Largo)]]
+* Ep. 101 - [[Burmese Therapist Office (Live from SF SketchFest)]]
+* Ep. 102 - [[The Red Carpet at the Oscars]]
+* Ep. 103 - [[The Break Room Of A Very Busy Quiznos]]
+* Ep. 104 - [[A High-End Boxing Gym]]
+* Ep. 105 - [[Earwolf]]
+* Ep. 106 - [[A Parallel Universe]]
+* Ep. 107 - [[An Interstellar Colony Ship]]
+* Ep. 108 - [[A Small Town Post Office After Hours]]
+* Ep. 109 - [[An Abandoned Puppet Theater]]
+* Ep. 110 - [[The Manager’s Office of a Miniature Golf Course]]
+* Ep. 111 - [[Panic Room]]
+* Ep. 112 - [[Life Drawing Class]]
+* Ep. 113 - [[In the Green Room of a Local Morning Show]]
+* Ep. 114 - [[Ice Cream Shop In the Winter]]
+* Ep. 115 - [[Labyrinth]]
+* Ep. 116 - [[Backstage at the Grand Ole Opry]]
+* Ep. 117 - [[Highway Clean Up]]
+* Ep. 118 - [[A Covered Wagon Fording A River]]
+* Ep. 119 - [[A Forest]]
+* Ep. 120 - [[A Murder Mystery Dinner Party]]
+* Ep. 121 - [[Karaoke Night at A Small Logging Town Tavern]]
+* Ep. 122 - [[A Gas Station Only Stopped at During Road Trips]]
 [[Category:Spontaneanation Episodes]]</text>
     </revision>
   </page>
@@ -1010,16 +1065,17 @@ The interview for this episode was with [[Scott Aukerman]]. His [[Interview Ques
     <title>One Hour Photo Shop</title>
     <ns>0</ns>
     <id>2257</id>
-      <sha1>trqdqcy09uo46jk4l2j9u67ibqzwn49</sha1>
+      <sha1>isrmkelss47eqlpvo3pcd0d2sv00fle</sha1>
     <revision>
-      <id>4701</id>
-      <timestamp>2015-12-08T04:38:47Z</timestamp>
+      <id>5190</id>
+      <timestamp>2016-07-21T00:36:57Z</timestamp>
       <contributor>
-        <username>Mariusperkins</username>
-        <id>24589657</id>
+        <username>Thephydeaux</username>
+        <id>29172027</id>
       </contributor>
       <minor/>
-      <text xml:space="preserve" bytes="528">'''One Hour Photo Shop''' is the twenty-eighth episode of Spontaneanation.
+      <comment>/* Guests/Improvisors */ Non-ascii character in Jessica's name, space was not actually a space</comment>
+      <text xml:space="preserve" bytes="527">'''One Hour Photo Shop''' is the twenty-eighth episode of Spontaneanation.
 
 == Audio ==
 This episode can be heard via [http://www.earwolf.com/episode/one-hour-photo-shop/ earwolf].
@@ -1028,7 +1084,7 @@ This episode can be heard via [http://www.earwolf.com/episode/one-hour-photo-sho
 The interview for this episode was with [[Andrea Savage]]. Her [[Interview Questions|question]] was 'what is your earliest memory?'.
 
 == Guests/Improvisors ==
-* [[Jessica Chaffin]]
+* [[Jessica Chaffin]]
 * [[Matt Gourley]]
 * [[Drew Massey]]
 
@@ -2325,6 +2381,1573 @@ The interview for this episode was with JIm Rash. His [[Interview Questions|ques
 
 == Advertisement Characters Featured ==
 There were no advertisement characters featured in this episode.
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Gabrielle’s Quinceañera</title>
+    <ns>0</ns>
+    <id>2398</id>
+      <sha1>kb2mcri656l3dh4t2lqx0gz0fn3f1wq</sha1>
+    <revision>
+      <id>5204</id>
+      <timestamp>2016-07-25T10:01:12Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="579">'''Gabrielle’s Quinceañera '''is the seventieth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/gabrielles-quinceanera/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Rachel Bloom]]. Her [[Interview Questions|question]] was 'what's your favourite Prince song?'.
+
+== Guests/Improvisors ==
+* [[Stephanie Courtney]]
+* [[Ryan Gaul]]
+* [[Gary Anthony Williams]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Summer Camp (Live from Fox Cabaret in Vancouver, BC)</title>
+    <ns>0</ns>
+    <id>2400</id>
+      <sha1>ism9756qrysd1ei54mjkaoljpii7kfm</sha1>
+    <revision>
+      <id>5232</id>
+      <timestamp>2016-08-08T08:38:19Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="812">'''Summer Camp '''is the seventy-first episode of Spontaneanation. It was recorded live at Fox Cabaret in Vancouver, BC.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/summer-camp-live-from-vancouver/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Caitlin Howden]]. Her [[Interview Questions|question]] was 'what was the singular childhood trauma that has defined you as an artist?'.
+
+== Guests/Improvisors ==
+* [[Ryan Beil]]
+* [[Kevin Lee]]
+* [[Aaron Read]]
+* [[Taz Van Rassel]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.
+
+== Notes ==
+Paul and Aaron Read sing '[[Happy Birthday|happy birthday]]' to a woman in the audience (Jessica).[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Airship Underwater (Live at Largo)</title>
+    <ns>0</ns>
+    <id>2406</id>
+      <sha1>pd3hknw7ss2nnanbiooz5i2xq2u3miw</sha1>
+    <revision>
+      <id>5243</id>
+      <timestamp>2016-08-08T09:46:51Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="688">'''Airship Underwater '''is the seventy-second episode of Spontaneanation. It was recorded live at Largo.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/airship-underwater-live-from-largo/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Robyn Hitchcock]]. His [[Interview Questions|question]] was 'what sport would you play if you had all the physical ability but no mental awareness?'.
+
+== Guests/Improvisors ==
+* [[Nyima Funk]]
+* [[Colleen Smith]]
+* [[Chris Tallman]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>The King of Prussia Mall on Opening Weekend</title>
+    <ns>0</ns>
+    <id>2416</id>
+      <sha1>j9t4il0bd5lua5tq0kj5vn562pvlbgv</sha1>
+    <revision>
+      <id>5265</id>
+      <timestamp>2016-08-15T10:21:43Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="591">'''The King of Prussia Mall on Opening Weekend '''is the seventy-third episode of Spontaneanation
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/the-king-of-prussia-mall-on-opening-weekend/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Kristian Bruun]]. His [[Interview Questions|question]] was 'who's hair would you like to find in your soup?'.
+
+== Guests/Improvisors ==
+* [[Carla Cackowski]]
+* [[Gary Anthony Williams]]
+* [[Jean Villepique]]
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Cold Storage Facility at a Chicken Farm</title>
+    <ns>0</ns>
+    <id>2418</id>
+      <sha1>8wrn0foz955gpizb2533ygq8o3mzzwh</sha1>
+    <revision>
+      <id>5282</id>
+      <timestamp>2016-08-22T09:00:03Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>added episode question</comment>
+      <text xml:space="preserve" bytes="619">'''Cold Storage Facility at a Chicken Farm '''is the seventy-fourth episode of Spontaneanation
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/cold-storage-facility-at-a-chicken-farm/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Anna Drezen]] and [[Nicole Silverberg]]. Their [[Interview Questions|question]] was 'what toy from your childhood do you miss the most and, if it broke, how?'.
+
+== Guests/Improvisors ==
+* [[Annie Savage]]
+* [[Sarah Burns]]
+* [[Colleen Smith]]
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Aquarium</title>
+    <ns>0</ns>
+    <id>2423</id>
+      <sha1>0scn89vx1stlhr0ztiu9qu9ye6h6hua</sha1>
+    <revision>
+      <id>5293</id>
+      <timestamp>2016-08-29T10:15:48Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="603">'''Aquarium''' is the seventy-fifth episode of Spontaneanation
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/aquarium/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Sean Clements]] and [[Hayes Davenport]]. Their [[Interview Questions|question]] was 'what is the first thing you broke that wasn't yours?'.
+
+== Guests/Improvisors ==
+Sean Clements and Hayes Davenport were also the improvisors for this episode.
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Summer Theatre Camp in Michigan</title>
+    <ns>0</ns>
+    <id>2424</id>
+      <sha1>agv9eqqsolgdn1dzeddzyxj5niweatb</sha1>
+    <revision>
+      <id>5305</id>
+      <timestamp>2016-09-05T10:19:09Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="608">'''A Summer Theatre Camp in Michigan '''is the seventy-sixth episode of Spontaneanation
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-summer-theatre-camp-in-michigan/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Nicole Parker]]. Her [[Interview Questions|question]] was 'what kind of small business would you like to own?'.
+
+== Guests/Improvisors ==
+* [[Shulie Cowen]]
+* [[Mark McConville]]
+* [[Tawny Newsome]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Concession Stand</title>
+    <ns>0</ns>
+    <id>2426</id>
+      <sha1>qsrhdswr20vp5qrz62gqe5d3yvtl03m</sha1>
+    <revision>
+      <id>5318</id>
+      <timestamp>2016-09-12T07:43:29Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="558">'''Concession Stand '''is the seventy-seventh episode of Spontaneanation
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/concession-stand/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Rhea Butcher]]. Her [[Interview Questions|question]] was 'what was the last dream you can remember and why do you think you dreamt it?'.
+
+== Guests/Improvisors ==
+* [[Brandon Johnson]]
+* [[Jean Villepique]]
+* [[Chris Tallman]]
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Donut Factory (Live at Largo)</title>
+    <ns>0</ns>
+    <id>2428</id>
+      <sha1>sm3uagrt17cs83rzymw708ocai9eb99</sha1>
+    <revision>
+      <id>5335</id>
+      <timestamp>2016-09-19T08:53:38Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="660">'''Donut Factory '''is the seventy-eighth episode of Spontaneanation. It was recorded live at Largo at the Coronet in Los Angeles.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/donut-factory-live-from-largo/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Desmin Borges]]. His [[Interview Questions|question]] was 'who was your childhood hero? Are they still?'.
+
+== Guests/Improvisors ==
+* [[Dan Ahdoot]]
+* [[Tim Baltz]]
+* [[Tawny Newsome]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Madrid (Live from Outside Lands 2016)</title>
+    <ns>0</ns>
+    <id>2432</id>
+      <sha1>nosphvem4gwjcfq40vzmniomjg5lifn</sha1>
+    <revision>
+      <id>5349</id>
+      <timestamp>2016-09-26T07:56:17Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="636">'''Madrid '''is the seventy-ninth episode of Spontaneanation. It was recorded live at Outside Lands in San Francisco.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/madrid-live-from-outside-lands-2016/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Fred Armisen]]. His [[Interview Questions|question]] was 'do you consider cheeseburgers to be part of the sandwich family?'.
+
+== Guests/Improvisors ==
+* [[Craig Cackowski]]
+* [[Tawny Newsome]]
+* [[Janet Varney]]
+
+== Advertisement Characters Featured ==
+* [[Al A Peterson]]
+[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Warehouse</title>
+    <ns>0</ns>
+    <id>2436</id>
+      <sha1>hzhg1fx9km0i30rks1z7p7p842v1hql</sha1>
+    <revision>
+      <id>5369</id>
+      <timestamp>2016-10-03T08:56:38Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="557">'''Warehouse''' is the eightieth episode of Spontaneanation. 
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/warehouse/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Eugene Cordero]]. His [[Interview Questions|question]] was 'did silent movies have to be pitched back in the 20s?'.
+
+== Guests/Improvisors ==
+* [[Tim Baltz]]
+* [[Carla Cackowski]]
+* [[Amanda Lund]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>The Other Side of The Tracks (Live from The Detroit Improv Festival)</title>
+    <ns>0</ns>
+    <id>2441</id>
+      <sha1>0zky749pai3j8z0bk2esyy7gvudicp8</sha1>
+    <revision>
+      <id>5386</id>
+      <timestamp>2016-10-10T09:18:40Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="705">'''The Other Side of The Tracks '''is the eighty-first episode of Spontaneanation. It was recorded live at The Detroit Improv Festival.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/the-other-side-of-the-tracks-live-from-the-detroit-improv-festival/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Craig Cackowski]]. His [[Interview Questions|question]] was 'do you still eat pudding as an adult?'. 
+
+== Guests/Improvisors ==
+* [[Nyima Funk]]
+* [[Nancy Hayden]]
+* [[Marc Evan Jackson]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Madison Square Garden (Live from The Detroit Improv Festival)</title>
+    <ns>0</ns>
+    <id>2443</id>
+      <sha1>px3qwkfm14fpplm684ykif8ub0kz6d9</sha1>
+    <revision>
+      <id>5399</id>
+      <timestamp>2016-10-17T08:02:40Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="692">'''Madison Square Garden '''is the eighty-second episode of Spontaneanation. It was recorded live at The Detroit Improv Festival.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/madison-square-garden-live-from-the-detroit-improv-festival/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Zach Gowen]]. His [[Interview Questions|question]] was 'it's 3am, you're up. What are you doing?'. 
+
+== Guests/Improvisors ==
+* [[Nyima Funk]]
+* [[Marc Warzecha]]
+* [[Marc Evan Jackson]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.
+[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Under A Big Rain Storm</title>
+    <ns>0</ns>
+    <id>2446</id>
+      <sha1>70n1bblk79m3dde27paz3slvm5d05dv</sha1>
+    <revision>
+      <id>5409</id>
+      <timestamp>2016-10-24T07:53:00Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="698">'''Under A Big Rain Storm '''is the eighty-third episode of Spontaneanation.
+
+This episode is the only time that Paul has told the current guest the identity of the previous guest/question asker.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/under-a-big-rain-storm/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Janet Varney]] and [[Jean Villepique]]. Their [[Interview Questions|question]] was 'what brings you fulfillment?'. 
+
+== Guests/Improvisors ==
+There were no additional guests on this episode.
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>State Fair (Live at Largo)</title>
+    <ns>0</ns>
+    <id>2447</id>
+      <sha1>3iy9vqdvt2xro5v257tfm2yhwoze0wr</sha1>
+    <revision>
+      <id>5422</id>
+      <timestamp>2016-11-01T14:29:33Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="671">''' State Fair''' is the eighty-fourth episode of Spontaneanation. This episode was recorded live at Largo at the Coronet.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/state-fair-live-from-largo/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Kumail Nanjiani]]. His [[Interview Questions|question]] was 'when did you first realise you didn't fit into society?'. 
+
+== Guests/Improvisors ==
+* [[Jordan Black]]
+* [[Annie Savage]]
+* [[Jean Villepique]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode
+[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>The Last Sizzler</title>
+    <ns>0</ns>
+    <id>2448</id>
+      <sha1>3moncjl5flad4oqdkroggkf9e0gzsj3</sha1>
+    <revision>
+      <id>5431</id>
+      <timestamp>2016-11-12T06:24:32Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="601">'''The Last Sizzler '''is the eighty-fifth episode of Spontaneanation. 
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/the-last-sizzler/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Jeb Lund]]. His [[Interview Questions|question]] was 'if you could only eat one fruit for the rest of your life, what would it be?'. 
+
+== Guests/Improvisors ==
+* [[Stephanie Courtney]]
+* [[Maria Blasucci]]
+* [[Amanda Lund]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Whale’s Belly</title>
+    <ns>0</ns>
+    <id>2450</id>
+      <sha1>tidgms2ab1gz0vntenk71b9g13ypg0p</sha1>
+    <revision>
+      <id>5446</id>
+      <timestamp>2016-11-14T08:28:10Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="527">'''A Whale’s Belly '''is the eighty-sixth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-whales-belly/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Natalie Morales]]. Her [[Interview Questions|question]] was 'what is the most fun you've had in a hospital?'. 
+
+== Guests/Improvisors ==
+* [[Matt Gourley]]
+* [[Craig Cackowski]]
+* [[Colleen Smith]]
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Train Station (Live at Largo)</title>
+    <ns>0</ns>
+    <id>2451</id>
+      <sha1>25k4eumcjan822ppi63g7n4eu4389rk</sha1>
+    <revision>
+      <id>5461</id>
+      <timestamp>2016-11-21T09:12:34Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="605">'''Train Station '''is the eighty-seventh episode of Spontaneanation. It was recorded live at Largo at The Coronet.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/train-station-live-from-largo/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Horatio Sanz]]. His [[Interview Questions|question]] was 'what is your 'sliding doors' alternate career?'. 
+
+== Guests/Improvisors ==
+* [[Ryan Gaul]]
+* [[Mandell Maughan]]
+* [[Drew Tarver]]
+
+== Advertisement Characters Featured ==
+* [[David Leesa]]
+[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>East NYC Village</title>
+    <ns>0</ns>
+    <id>2454</id>
+      <sha1>m7fheqhf9ovxjav3w5i9bpvrk6lpxa5</sha1>
+    <revision>
+      <id>5480</id>
+      <timestamp>2016-12-05T08:46:24Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="563">'''East NYC Village '''is the eighty-eighth episode of Spontaneanation. 
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/east-nyc-village/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Oscar Nunez]]. His [[Interview Questions|question]] was 'why do you care about God?'. 
+
+== Guests/Improvisors ==
+* [[Craig Cackowski]]
+* [[Jean Villepique]]
+* [[Gary Anthony Williams]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Salem, Oregon Comic Shop</title>
+    <ns>0</ns>
+    <id>2456</id>
+      <sha1>lvfhvxlemjie2rbxlqtu91jtshphbpu</sha1>
+    <revision>
+      <id>5651</id>
+      <timestamp>2017-02-20T08:37:18Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="704">'''Salem, Oregon Comic Shop '''is the eighty-ninth episode of Spontaneanation. Ron Funches originally ave the location as a 'Salem, Oregon ''Coffee'' Shop', but Paul misread it.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/salem-oregon-comic-shop/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Ron Funches]]. His [[Interview Questions|question]] was 'where was the first slice of pizza that you bought as a youngster?'. 
+
+== Guests/Improvisors ==
+* [[Jordan Black]]
+* [[Jeremy Carter]]
+* [[Jean Villepique]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>The Childhood Home of Fred Rogers</title>
+    <ns>0</ns>
+    <id>2458</id>
+      <sha1>g8dnd80wg7drci50hf5q425a57jt3oj</sha1>
+    <revision>
+      <id>5516</id>
+      <timestamp>2016-12-19T08:56:06Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="606">'''The Childhood Home of Fred Rogers '''is the ninetieth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/the-childhood-home-of-fred-rogers/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Kathryn Borel]]. Her [[Interview Questions|question]] was 'who was your mentor getting into your profession?'. 
+
+== Guests/Improvisors ==
+* [[Hal Lublin]]
+* [[Jennifer Marie Kelley]]
+* [[Mary Sohn]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Fast Food Restaurant Kitchen In An Alternate Universe</title>
+    <ns>0</ns>
+    <id>2462</id>
+      <sha1>k0jtdpynbbpguqfixp2dqyaz7dkh94i</sha1>
+    <revision>
+      <id>5526</id>
+      <timestamp>2016-12-19T09:14:20Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="619">'''A Fast Food Restaurant Kitchen In An Alternate Universe '''is the ninety-first episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-fast-food-restaurant-kitchen-in-an-alternate-universe/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Maria Thayer]]. Her [[Interview Questions|question]] was 'when did your parent or caregiver most hurt your feelings?'. 
+
+== Guests/Improvisors ==
+* [[Stephanie Courtney]]
+* [[Colleen Smith]]
+* [[Chris Tallman]]
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Boise, Idaho (Live from Now Hear This Festival)</title>
+    <ns>0</ns>
+    <id>2463</id>
+      <sha1>rw3gckj6z3cif9cn97e2vu4a88d6kar</sha1>
+    <revision>
+      <id>5543</id>
+      <timestamp>2016-12-26T09:43:14Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="688">'''Boise, Idaho '''is the ninety-second episode of Spontaneanation. It was recorded live at the Now Hear This Festival.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/boise-idaho-live-from-now-hear-this-festival/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Kulap Vilaysack]] and [[Howard Kremer]]. Their [[Interview Questions|question]] was 'what is the first joke you laughed at?'. 
+
+== Guests/Improvisors ==
+* [[Dan Ahdoot]]
+* [[Tawny Newsome]]
+* [[Drew Tarver]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Home Depot</title>
+    <ns>0</ns>
+    <id>2465</id>
+      <sha1>3cnobxsouekoaddp3jllzn9xlim670f</sha1>
+    <revision>
+      <id>5555</id>
+      <timestamp>2017-01-02T10:35:44Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="534">'''Home Depot''' is the ninety-third episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/home-depot/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Nicole Parker]]. Her [[Interview Questions|question]] was 'what was your first suit?'. 
+
+== Guests/Improvisors ==
+* [[Brandon Johnson]]
+* [[Amanda Lund]]
+* [[Mary Sohn]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Art Gallery (Live at Largo)</title>
+    <ns>0</ns>
+    <id>2466</id>
+      <sha1>lk7atl4ff2a6ti0y5eks0x5dbbpgq8k</sha1>
+    <revision>
+      <id>5569</id>
+      <timestamp>2017-01-09T10:16:52Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="700">'''Art Gallery''' is the ninety-fourth episode of Spontaneanation. It was recorded live at Largo at the Coronet in Los Angeles.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/art-gallery-live-from-largo/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Steven Yeun]]. His [[Interview Questions|question]] was 'what day would you like to go back an re-live? PS: You can go back to change things'. 
+
+== Guests/Improvisors ==
+* [[Shulie Cowen]]
+* [[Tawny Newsome]]
+* [[Chris Tallman]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Backstage At A Rock Club (Live from The Bell House)</title>
+    <ns>0</ns>
+    <id>2468</id>
+      <sha1>g26ctt070flh4fymiqd0mzvj9xtzy6l</sha1>
+    <revision>
+      <id>5589</id>
+      <timestamp>2017-01-23T08:29:03Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="823">'''Backstage At A Rock Club '''is the ninety-fifth episode of Spontaneanation. It was recorded live at The Bell House in Brooklyn, New York.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/backstage-at-a-rock-club-live-from-the-bell-house/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Rhett Miller]]. His [[Interview Questions|question]] was 'how did the movie '[http://www.imdb.com/title/tt0108037/ The Sandlot]' effect your life? If you haven't seen it, what is the medical condition that prevented you?'. 
+
+== Guests/Improvisors ==
+* [[Chelsea Clarke]]
+* [[Shannon O’Neill]]
+* [[Gary Richardson]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>The Bell House (Live from The Bell House)</title>
+    <ns>0</ns>
+    <id>2473</id>
+      <sha1>im7y3h6xo49vqwm8bf3ponu229w8c13</sha1>
+    <revision>
+      <id>5601</id>
+      <timestamp>2017-01-30T08:30:23Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="694">'''The Bell House '''is the ninety-sixth episode of Spontaneanation. It was recorded live at The Bell House in Brooklyn, New York.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/the-bell-house-live-from-the-bell-house/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Nathan Lee Graham]]. His [[Interview Questions|question]] was 'what's the song to which you lost your virginity?'. 
+
+== Guests/Improvisors ==
+* [[Chelsea Clarke]]
+* [[Shannon O’Neill]]
+* [[Gary Richardson]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Family-Owned Bagel Shop</title>
+    <ns>0</ns>
+    <id>2474</id>
+      <sha1>iomq7l2kyef3hq40kp72rd8479sa6tw</sha1>
+    <revision>
+      <id>5615</id>
+      <timestamp>2017-02-06T08:26:22Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="645">'''A Family-Owned Bagel Shop '''is the ninety-seventh episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-family-owned-bagel-shop/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Cameron Esposito]]. Her [[Interview Questions|question]] was 'what happens is the supreme court gets rid of [https://en.wikipedia.org/wiki/Roe_v._Wade Roe V Wade]?'. 
+
+== Guests/Improvisors ==
+* [[Jeremy Carter]]
+* [[Colleen Smith]]
+* [[Gary Anthony Williams]]
+
+== Advertisement Characters Featured ==
+There were no advertisement featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Post-Apocalyptic Wasteland</title>
+    <ns>0</ns>
+    <id>2475</id>
+      <sha1>1875w9p4sbiwnp486aw2xsatr2inlpy</sha1>
+    <revision>
+      <id>5628</id>
+      <timestamp>2017-02-06T09:17:03Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Guests/Improvisors */</comment>
+      <text xml:space="preserve" bytes="648">'''A Post-Apocalyptic Wasteland '''is the ninety-eighth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-post-apocalyptic-wasteland/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Nyima Funk]], [[Daniele Gaither]], [[Gary Anthony Williams]], and [[Cedric Yarbrough]]. Their [[Interview Questions|question]] was 'have you ever called 9-1-1 to help a stranger? Tell us why'. 
+
+== Guests/Improvisors ==
+* [[Daniele Gaither]]
+* [[Gary Anthony Williams]]
+* [[Cedric Yarbrough]] 
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Ice Cream Parlor</title>
+    <ns>0</ns>
+    <id>2476</id>
+      <sha1>cutz595eljxwricovp47xli630a1t9s</sha1>
+    <revision>
+      <id>5639</id>
+      <timestamp>2017-02-20T08:13:41Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Advertisement Characters Featured */</comment>
+      <text xml:space="preserve" bytes="600">'''Ice Cream Parlor '''is the ninety-ninth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/ice-cream-parlor/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Craig Cackowski]]. His [[Interview Questions|question]] was 'at this very moment, a health inspector is about to walk into your home. What rating would your kitchen receive?'. 
+
+== Guests/Improvisors ==
+* [[Craig Cackowski]]
+
+== Advertisement Characters Featured ==
+There were no advertisement characters featured in this episode.[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>The Pilot Episode: A Non-Tropical Resort</title>
+    <ns>0</ns>
+    <id>2477</id>
+      <sha1>jg4sboq4nrkrgbneu87fnwpi8hass53</sha1>
+    <revision>
+      <id>5652</id>
+      <timestamp>2017-02-20T08:54:28Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="614">'''A Non-Tropical Resort '''is a bonus episode of Spontaneanation. It was the pilot episode, and was released between [[Ice Cream Parlor|episode 99]] and episode 100.
+
+== Audio  ==
+This episode can be heard via [http://www.earwolf.com/episode/bonus-the-pilot-episode/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Rich Sommer]]. His [[Interview Questions|question]] was 'how does Mad Men end?'. 
+
+== Guests/Improvisors  ==
+* [[Matt Gourley]]
+* [[Mark McConville]]
+* [[Chris Tallman]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]
+[[Category:Bonus Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Shoe Store (Live at Largo)</title>
+    <ns>0</ns>
+    <id>2479</id>
+      <sha1>p10p2i3n4834sf4pdlvzd2fku4t9jzv</sha1>
+    <revision>
+      <id>5673</id>
+      <timestamp>2017-02-23T09:01:50Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="649">'''A Shoe Store '''is the one hundredth episode of Spontaneanation. It was recorded live at Largo at the Coronet.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-shoe-store-live-from-largo/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Constance Wu]]. Her [[Interview Questions|question]] was 'what sport or game could you kick my ass in?'. 
+
+== Guests/Improvisors ==
+* [[Sarah Burns]]
+* [[Marc Evan Jackson]]
+* [[Janet Varney]]
+
+== Advertisement Characters Featured ==
+* [[A Contraptionaire]]
+* [[Dracula]]
+* [[Mitch and Dolores]]
+
+[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Burmese Therapist Office (Live from SF SketchFest)</title>
+    <ns>0</ns>
+    <id>2481</id>
+      <sha1>44aqnsstys0pn1syzqi46fc4lo1n0ml</sha1>
+    <revision>
+      <id>5687</id>
+      <timestamp>2017-02-27T09:13:17Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="634">'''Burmese Therapist Office '''is the one hundred and first episode of Spontaneanation. It was recorded live at SF SketchFest.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/burmese-therapist-office-live-from-sf-sketchfest/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Busy Philipps]]. Her [[Interview Questions|question]] was 'are you a bad girl? Are you? ''Are you''?'. 
+
+== Guests/Improvisors ==
+* [[Eugene Cordero]]
+* [[Tawny Newsome]]
+* [[Janet Varney]]
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]
+[[Category:Live Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>The Red Carpet at the Oscars</title>
+    <ns>0</ns>
+    <id>2482</id>
+      <sha1>kuc1h5w38w1tmmvnj0kqjl5biehx7nt</sha1>
+    <revision>
+      <id>5699</id>
+      <timestamp>2017-03-06T10:51:18Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="583">'''The Red Carpet at the Oscars '''is the one hundred and second episode of Spontaneanation. 
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/the-red-carpet-at-the-oscars/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Merrin Dungey]]. Her [[Interview Questions|question]] was 'what is the last great meal you ate and who did you eat it with and what did you talk about?'. 
+
+== Guests/Improvisors ==
+* [[Colleen Smith]]
+* [[Shaun Diston]]
+* [[Nyima Funk]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>The Break Room Of A Very Busy Quiznos</title>
+    <ns>0</ns>
+    <id>2485</id>
+      <sha1>rg03bymwypwxuppeyjkvwajf1p6kbzh</sha1>
+    <revision>
+      <id>5710</id>
+      <timestamp>2017-03-13T07:49:09Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="548">'''The Break Room Of A Very Busy Quiznos '''is the one hundred and third episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/the-break-room-of-a-very-busy-quiznos/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Dave Holmes]]. His [[Interview Questions|question]] was 'what clubs were you in in high school?'. 
+
+== Guests/Improvisors ==
+* [[Jean Villepique]]
+* [[Amanda Lund]]
+* [[Zeke Nicholson]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A High-End Boxing Gym</title>
+    <ns>0</ns>
+    <id>2487</id>
+      <sha1>1sve7c7e73kkf2aec88rltxt9krt01p</sha1>
+    <revision>
+      <id>5727</id>
+      <timestamp>2017-03-20T07:52:21Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="526">'''A High-End Boxing Gym '''is the one hundred and fourth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-high-end-boxing-gym/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Andrew Ti]]. His [[Interview Questions|question]] was 'what do you do for exercise?'. 
+
+== Guests/Improvisors ==
+* [[Jordan Black]]
+* [[Stephanie Courtney]]
+* [[Tawny Newsome]]
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Earwolf</title>
+    <ns>0</ns>
+    <id>2489</id>
+      <sha1>rsnmklgww8mc2jfjvr7ix16imag5teb</sha1>
+    <revision>
+      <id>5738</id>
+      <timestamp>2017-03-27T08:06:59Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="477">'''Earwolf '''is the one hundred and fifth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/earwolf/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Kristen Schaal]]. Her [[Interview Questions|question]] was 'have you ever been arrested?'. 
+
+== Guests/Improvisors ==
+* [[Maria Blasucci]]
+* [[Tawny Newsome]]
+* [[Carl Tart]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Parallel Universe</title>
+    <ns>0</ns>
+    <id>2491</id>
+      <sha1>1ndl8a7uqej8fz0kmtazdbhjng7o1h5</sha1>
+    <revision>
+      <id>5752</id>
+      <timestamp>2017-04-03T09:00:11Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Guests/Improvisors */</comment>
+      <text xml:space="preserve" bytes="597">'''A Parallel Universe '''is the one hundred and sixth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-parallel-universe/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Tim Baltz]], [[Mandell Maughan]], [[Tawny Newsome]], and [[Drew Tarver]]. Their [[Interview Questions|question]] was 'in an apocalypse, what will be the most valuable item to trade?'. 
+
+== Guests/Improvisors ==
+* Tim Baltz
+* Mandell Maughan
+* Tawny Newsome
+* Drew Tarver
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>An Interstellar Colony Ship</title>
+    <ns>0</ns>
+    <id>2492</id>
+      <sha1>7v8i5s5wbohpzoa09t9l5s0qh2x86v2</sha1>
+    <revision>
+      <id>5763</id>
+      <timestamp>2017-04-10T08:56:29Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="618">'''An Interstellar Colony Ship '''is the one hundred and seventh episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/an-interstellar-colony-ship/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Jeremy Carter]], [[Matt Gourley]], and [[Mark McConville]]. Their [[Interview Questions|question]] was 'if you could remain one age for your entire life, what age would it be and why?'. 
+
+== Guests/Improvisors ==
+* [[Jeremy Carter]]
+* [[Matt Gourley]]
+* [[Mark McConville]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Small Town Post Office After Hours</title>
+    <ns>0</ns>
+    <id>2493</id>
+      <sha1>ep2ujo604l5wmre0jtoiblu9gejsimj</sha1>
+    <revision>
+      <id>5781</id>
+      <timestamp>2017-04-17T08:41:12Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="658">'''A Small Town Post Office After Hours '''is the one hundred and eighth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-small-town-post-office-after-hours-w-big-grande/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Dan Lippert]], [[Jon Mackey]], [[Ryan Rosenberg]], and [[Drew Tarver]]. Their [[Interview Questions|question]] was 'what food item have you consumed the most of in your lifetime?'. 
+
+== Guests/Improvisors ==
+* Dan Lippert
+* Jon Mackey
+* Ryan Rosenberg
+* Drew Tarver
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>An Abandoned Puppet Theater</title>
+    <ns>0</ns>
+    <id>2497</id>
+      <sha1>7zw3cle07szhd5jme5hkhvxn8b5mtc0</sha1>
+    <revision>
+      <id>5794</id>
+      <timestamp>2017-04-24T08:53:29Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="646">'''An Abandoned Puppet Theater '''is the one hundred and ninth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/an-abandoned-puppet-theater-w-cbb-tour-reunion/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Scott Aukerman]], [[Neil Campbell]], [[Jon Gabrus]], [[Mike Hanford]], and [[Lauren Lapkus]]. Their [[Interview Questions|question]] was 'what's the most scared you've ever been?'. 
+
+== Guests/Improvisors ==
+* Scott Aukerman
+* Neil Campbell
+* Jon Gabrus
+* Mike Hanford
+* Lauren Lapkus
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>The Manager’s Office of a Miniature Golf Course</title>
+    <ns>0</ns>
+    <id>2501</id>
+      <sha1>q6qvnc7dr0g7hora0ug72oyem12re70</sha1>
+    <revision>
+      <id>5808</id>
+      <timestamp>2017-05-01T10:28:06Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="533">'''The Manager’s Office of a Miniature Golf Course '''is the one hundred and tenth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/the-managers-office-of-a-miniature-golf-course/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Tatiana Maslany]]. Her [[Interview Questions|question]] was 'what animals have you seen in the wild?'. 
+
+== Guests/Improvisors ==
+* [[Lauren Lapkus]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Panic Room</title>
+    <ns>0</ns>
+    <id>2503</id>
+      <sha1>6j7749iu2ux2j6viodds0g0ucv8chft</sha1>
+    <revision>
+      <id>5821</id>
+      <timestamp>2017-05-08T08:34:01Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="542">'''Panic Room '''is the one hundred and eleventh episode of Spontaneanation.
+
+== Audio  ==
+This episode can be heard via [http://www.earwolf.com/episode/panic-room/ earwolf].
+
+== Interview  ==
+The interview for this episode was with [[Katy Colloton]] and [[Katie O’Brien]]. Their [[Interview Questions|question]] was 'do you have a song that is always stuck in your head?'. 
+
+== Guests/Improvisors  ==
+* [[Daniele Gaither]]
+* [[Jean Villepique]]
+* [[Carl Tart]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Life Drawing Class</title>
+    <ns>0</ns>
+    <id>2506</id>
+      <sha1>a4boltc060h3lflw7ob6yqmenccyblf</sha1>
+    <revision>
+      <id>5832</id>
+      <timestamp>2017-05-15T08:21:01Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="539">'''Life Drawing Class '''is the one hundred and twelfth episode of Spontaneanation.
+
+== Audio  ==
+This episode can be heard via [http://www.earwolf.com/episode/life-drawing-class/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Ted Leo]]. His [[Interview Questions|question]] was 'when was the last time you cried out of happiness?'. 
+
+== Guests/Improvisors ==
+* [[Colleen Smith]]
+* [[Craig Cackowski]]
+* [[Jordan Black]]
+
+== Advertisement Characters Featured ==
+* [[Mack Weldon]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>In the Green Room of a Local Morning Show</title>
+    <ns>0</ns>
+    <id>2508</id>
+      <sha1>368lp0jtt168u8y9i2w3icjts5w6u5g</sha1>
+    <revision>
+      <id>5852</id>
+      <timestamp>2017-05-22T09:19:52Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="633">'''In the Green Room of a Local Morning Show '''is the one hundred and thirteenth episode of Spontaneanation.
+
+== Audio  ==
+This episode can be heard via [http://www.earwolf.com/episode/in-the-green-room-of-a-local-morning-show/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Nicole Parker]]. Her [[Interview Questions|question]] was 'stipulating that there's nothing wrong with 'here', if you could be anywhere else right now, where would that be?'. 
+
+== Guests/Improvisors ==
+* [[Mary Sohn]]
+* [[Amanda Lund]]
+* [[Maria Blasucci]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Ice Cream Shop In the Winter</title>
+    <ns>0</ns>
+    <id>2509</id>
+      <sha1>fxovuyf8jw60pefzwzp3ecjvkitviie</sha1>
+    <revision>
+      <id>5860</id>
+      <timestamp>2017-05-29T08:34:32Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="551">'''Ice Cream Shop In the Winter '''is the one hundred and fourteenth episode of Spontaneanation.
+
+== Audio  ==
+This episode can be heard via [http://www.earwolf.com/episode/ice-cream-shop-in-the-winter/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Shannon Woodward]]. Her [[Interview Questions|question]] was 'what is the most embarrassed you've ever been?'. 
+
+== Guests/Improvisors ==
+* [[Sarah Burns]]
+* [[Nyima Funk]]
+* [[Rebecca Delgado Smith]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Labyrinth</title>
+    <ns>0</ns>
+    <id>2512</id>
+      <sha1>jjenzjowywr7r4742ix6dkq92fl12fv</sha1>
+    <revision>
+      <id>5880</id>
+      <timestamp>2017-06-12T08:11:34Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="523">'''Labyrinth '''is the one hundred and fifteenth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/labyrinth-2/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Kristian Bruun]]. His [[Interview Questions|question]] was 'what was the worst encounter with a stranger you ever had?'. 
+
+== Guests/Improvisors ==
+* [[Stephanie Courtney]]
+* [[Shaun Diston]]
+* [[Janet Varney]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Highway Clean Up</title>
+    <ns>0</ns>
+    <id>2518</id>
+      <sha1>3893ddkc4o4thyyrqkhtr7s6k631dbc</sha1>
+    <revision>
+      <id>5906</id>
+      <timestamp>2017-06-19T08:50:11Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="542">'''Highway Clean Up '''is the one hundred and seventh episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/highway-clean-up/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Kumail Nanjiani]] and [[Emily V. Gordon]]. Their [[Interview Questions|question]] was 'when did you first learn what sex was, and how?'. 
+
+== Guests/Improvisors ==
+* [[Dan Ahdoot]]
+* [[Tawny Newsome]]
+* [[Mano Agapion]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Covered Wagon Fording A River</title>
+    <ns>0</ns>
+    <id>2520</id>
+      <sha1>5xadpa5mo6a954k945dq7ofnjqtkqay</sha1>
+    <revision>
+      <id>5921</id>
+      <timestamp>2017-06-26T09:59:18Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="532">'''A Covered Wagon Fording A River '''is the one hundred and eighteen episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-covered-wagon-fording-a-river/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Ennis Esmer]]. His [[Interview Questions|question]] was 'when is the last time you vomited?'. 
+
+== Guests/Improvisors ==
+* [[Jean Villepique]]
+* [[Chris Tallman]]
+* [[Josh Dean]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Murder Mystery Dinner Party</title>
+    <ns>0</ns>
+    <id>2525</id>
+      <sha1>ahd40wa6ocecqd6h1ei64bn3gnwy4wu</sha1>
+    <revision>
+      <id>5944</id>
+      <timestamp>2017-07-10T09:01:15Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="550">'''A Murder Mystery Dinner Party '''is the one hundred and twentieth episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-murder-mystery-dinner-party/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Sean Clements]] and [[Hayes Davenport]]. Their [[Interview Questions|question]] was 'what is the first song you remember hating?'. 
+
+== Guests/Improvisors ==
+* [[Sean Clements]]
+* [[Hayes Davenport]]
+
+== Advertisement Characters Featured ==
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Karaoke Night at A Small Logging Town Tavern</title>
+    <ns>0</ns>
+    <id>2526</id>
+      <sha1>iz8tjwbr2fpk0cwmdbsg22olaseg89p</sha1>
+    <revision>
+      <id>5957</id>
+      <timestamp>2017-07-17T08:59:07Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <comment>/* Interview */</comment>
+      <text xml:space="preserve" bytes="534">'''Karaoke Night at A Small Logging Town Tavern '''is the one hundred and twenty-first episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/karaoke-night-at-a-small-logging-town-tavern/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Scott Aukerman]]. His [[Interview Questions|question]] was 'tell me something your hometown is known for'. 
+
+== Guests/Improvisors ==
+* [[Jordan Black]]
+* [[Hal Lublin]]
+* [[Jean Villepique]]
+[[Category:Spontaneanation Episodes]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>A Gas Station Only Stopped at During Road Trips</title>
+    <ns>0</ns>
+    <id>2527</id>
+      <sha1>0yejfv1yj0jnujhanrv9md53hn47gx9</sha1>
+    <revision>
+      <id>5966</id>
+      <timestamp>2017-07-24T08:48:40Z</timestamp>
+      <contributor>
+        <username>Mariusperkins</username>
+        <id>24589657</id>
+      </contributor>
+      <text xml:space="preserve" bytes="533">'''A Gas Station Only Stopped at During Road Trips '''is the one hundred and twenty-second episode of Spontaneanation.
+
+== Audio ==
+This episode can be heard via [http://www.earwolf.com/episode/a-gas-station-only-stopped-at-during-road-trips/ earwolf].
+
+== Interview ==
+The interview for this episode was with [[Marc Evan Jackson]]. His [[Interview Questions|question]] was 'who was your best friend as a child and what would you do together'?. 
+
+== Guests/Improvisors ==
+* [[Marc Evan Jackson]]
 [[Category:Spontaneanation Episodes]]</text>
     </revision>
   </page>
