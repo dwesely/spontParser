@@ -15,6 +15,7 @@ running appearance counts by episode.
 
 import re
 import requests
+#from BeautifulSoup import BeautifulStoneSoup
 from sys import version
 
 VERBOSE = True
@@ -40,7 +41,7 @@ def parseEpisodeTitle(str):
 class Episode:
     episodes_dict = {}
     def __init__(self, number, title):
-        self.number        = int(number)
+        self.number        = float(number)
         self.title         = title
         self.guests        = set([])
         self.question      = ''
@@ -64,6 +65,14 @@ class Guest:
         else:
             self.link      = '[[{}]]'.format(name)
         Guest.guests_dict[name] = self
+        
+    def get_max_episode_gap(self):
+        """Go through the list of episodes and find the biggest break"""
+        if len(self.episodes) < 2:
+            return -1
+        episode_list = sorted([episode.number for episode in self.episodes])
+        return max([(j-i,i,j) for i, j in zip(episode_list[:-1], episode_list[1:])] )
+        
 
 def get_Guest_Object(name,link):
     if name not in Guest.guests_dict:
@@ -88,6 +97,24 @@ def get(pages=[], category = False, curonly=True):
     headers = {"User-Agent":"Wiki Downloader -- Python %s, contact: @danwesely on twitter" % version}
     r = requests.post(link, headers=headers, data=params)
     return r.text
+
+def getToEdit(pages=[], category = False, curonly=True):
+    #http://stackoverflow.com/questions/14512372/exporting-wikipedia-with-python
+    link = "http://spontaneanation.wikia.com/wiki/Category:Spontaneanation_Guests?action=edit&section=1"
+    params = {}
+    if pages:
+        params["pages"] = "\n".join(pages)
+    if category:
+        params["addcat"] = 1
+        params["catname"] = category
+
+    if curonly:
+        params["curonly"] = 1
+
+    headers = {"User-Agent":"BeepBopBoop, I'm a robot -- Python %s, contact: @danwesely on twitter" % version}
+    r = requests.post(link, headers=headers, data=params)
+    return r.text
+
 
 def main():
 
@@ -116,7 +143,7 @@ def main():
     with open(xmlFilename,'w') as newDownload:
         print(episodePages)
         newDownload.write(episodePages.encode('utf-8'))
-        
+    
     #Open file for results summary
     homefile = open('spont_wiki_home.txt','w')
     statsfile = open('spont_wiki_stats.csv','w')
@@ -124,7 +151,7 @@ def main():
     #Compile regex
     episodeTitleRegex = re.compile(r'''
         ^.*Ep.\s*               # Bullet
-        (\d+)                   # Episode number
+        (\d+.?\d*)              # Episode number
         \s*-\s*                 # Separator
         [[]+([^\]|]+)           # Episode title
         ''', re.VERBOSE)
@@ -241,11 +268,17 @@ def main():
     for guest in Guest.guests_dict.values():
         statsfile.write(',{}'.format(guest.name))
     for episode in sorted(Episode.episodes_dict.values(), key=lambda x: x.number):
-        statsfile.write('\n{:.0f}'.format(episode.number))
+        statsfile.write('\n{:.1f}'.format(episode.number))
         for guest in Guest.guests_dict.values():
             guestEpisodesSoFar = sum(guestisode.number <= episode.number for guestisode in guest.episodes)
-            statsfile.write(',{:.0f}'.format(guestEpisodesSoFar))
-            
+            statsfile.write(',{:.1f}'.format(guestEpisodesSoFar))
+    
+    statsfile.write('\nMax Episodes Between Guesting:')
+    for guest in Guest.guests_dict.values():
+        guestEpisodeMaxGap = guest.get_max_episode_gap()
+        statsfile.write(','+'{}'.format(guestEpisodeMaxGap).replace(',',';'))
+    #TODO: Average episodes between guesting
+    #statsfile.write('\nAvg Episodes Between Guesting:')
     
     episodesfile.close()
     homefile.close()
